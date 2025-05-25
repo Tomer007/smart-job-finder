@@ -1,6 +1,60 @@
 # Smart Job Finder
 
-Smart Job Finder is an AI-powered web app that allows users to search for jobs based on **country**, **city**, and **job title**. It uses **LangChain**, **OpenAI**, and a **web search tool** (e.g., Tavily) to find, summarize, and display relevant jobs in a clean, Bootstrap-based UI.
+A modern web application that helps job seekers find their dream positions through an interactive chat interface. The application uses AI to understand user preferences and provides relevant job opportunities.
+
+## Features
+
+- 🤖 Interactive chat interface for job search
+- 🌍 Location-based job filtering
+- 💼 Position-specific job recommendations
+- 🎯 Smart parameter extraction from natural language
+- 📱 Responsive design for all devices
+- ⚡ Fast and efficient job search results
+
+## Tech Stack
+
+- **Backend**: FastAPI (Python)
+- **Frontend**: HTML, CSS, JavaScript
+- **Styling**: Bootstrap 5
+- **Icons**: Font Awesome
+- **AI Integration**: Custom Job Search Agent
+
+## Prerequisites
+
+- Python 3.8+
+- pip (Python package manager)
+- Virtual environment (recommended)
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/YOUR_USERNAME/smart-job-finder.git
+cd smart-job-finder
+```
+
+2. Create and activate a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. Set up environment variables:
+Create a `.env` file in the root directory and add necessary environment variables.
+
+## Running the Application
+
+1. Start the FastAPI server:
+```bash
+uvicorn app.main:app --reload
+```
+
+2. Open your browser and navigate to:
 
 ---
 
