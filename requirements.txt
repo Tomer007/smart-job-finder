@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+openai
+langchain
+tavily-python
+pydantic
+python-dotenv
+langchain_community
+jinja2
+python-multipart
+tavily-python
+langchain_openai
